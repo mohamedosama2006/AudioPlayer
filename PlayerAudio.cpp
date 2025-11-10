@@ -6,6 +6,7 @@ PlayerAudio::PlayerAudio(juce::AudioFormatManager& fm)
     transportSource.addChangeListener(this);
 }
 
+
 PlayerAudio::~PlayerAudio()
 {
     transportSource.removeChangeListener(this);
